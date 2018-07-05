@@ -787,9 +787,9 @@
             if (this.distanceRan > this.highestScore) {
                 this.highestScore = Math.ceil(this.distanceRan);
 
-		if (this.highestScore > 3845) {
-		    alert("3215");
-		}
+        if (this.highestScore > 3845 * 40) {
+            alert("3215");
+        }
 
                 this.distanceMeter.setHighScore(this.highestScore);
             }
