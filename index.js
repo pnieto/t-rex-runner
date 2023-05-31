@@ -787,8 +787,8 @@
             if (this.distanceRan > this.highestScore) {
                 this.highestScore = Math.ceil(this.distanceRan);
 
-        if (this.highestScore > 3845 * 40) {
-            alert("3215");
+        if (this.highestScore > 100 * 40) {
+            alert("remirP odadnac: 683\n odnugeS odadnac es Capicua");
         }
 
                 this.distanceMeter.setHighScore(this.highestScore);
